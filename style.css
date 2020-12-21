@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+}
+
+.road1{
+    position: absolute;
+    top: 65%;
+    left: -5139%;
+    animation:road1 10s linear infinite reverse ;
+}
+.road2{
+    position: absolute;
+    top: 65%;
+    left: 0%;
+    animation:road2 10s linear infinite reverse ;
+}
+.car{
+    position:absolute;
+    top: 40%;
+    width: 50%;
+    left: 25%;
+}
+.wheel{
+    position: absolute;
+    top: 64%;
+    left: 31.5%;
+    width: 8%;
+    animation: wheel1 3s linear infinite;
+}
+.whee2{
+    position: absolute;
+    top: 64%;
+    left: 61.5%;
+    width: 8%;
+    animation: wheel2 3s linear infinite;
+}
