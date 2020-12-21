@@ -22,17 +22,47 @@ body{
     width: 50%;
     left: 25%;
 }
-.wheel{
+.wheel1{
     position: absolute;
     top: 64%;
-    left: 31.5%;
+    left: 30%;
     width: 8%;
     animation: wheel1 3s linear infinite;
 }
-.whee2{
+.wheel2{
     position: absolute;
     top: 64%;
-    left: 61.5%;
+    left: 60.5%;
     width: 8%;
     animation: wheel2 3s linear infinite;
+}
+.city1{
+    position: absolute;
+    top: -10%;
+    left: -100%;
+    width: 100%;
+    animation:  city1 10s linear infinite reverse;
+}
+.city2{
+    position: absolute;
+    top: 26.5%;
+    left: 0%;
+    width: 100%;
+    animation:  city2 10s linear infinite reverse;
+}
+@keyframes road1{
+    form{
+        left: -5139px;
+    }
+    to{
+        left: 0px;
+    }
+}
+@keyframes road1{
+    form{
+        left: 0px;
+    }
+    to{
+        left: 5139px;
+    }
 }
